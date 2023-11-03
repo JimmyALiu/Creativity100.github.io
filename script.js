@@ -10,8 +10,7 @@ const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
 
 // rehiding elements
-const observeHead = new IntersectionObserver((entry) => {
-  console.log("head");
+const observeHead = new IntersectionObserver(() => {
   hiddenElements.forEach((el) => {
     el.classList.remove("show");
   })
