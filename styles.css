@@ -26,7 +26,7 @@ h1 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0px;
 }
 
@@ -68,6 +68,14 @@ section {
   padding-bottom: 30px;
 }
 
+li {
+  font-size: 1.25rem;
+}
+
+#skills p {
+  padding-bottom: 20px;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -87,4 +95,8 @@ body::-webkit-scrollbar {
 
 #about p, #education div div {
   padding-bottom: 20px;
+}
+
+#projects h3 {
+  color: red;
 }
