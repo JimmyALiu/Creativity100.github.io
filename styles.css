@@ -27,6 +27,7 @@ h1 {
 
 p {
   font-size: 1.5rem;
+  margin: 0px;
 }
 
 nav {
@@ -84,3 +85,6 @@ body::-webkit-scrollbar {
   transition: all 1s;
 }
 
+#about p, #education div div {
+  padding-bottom: 20px;
+}
