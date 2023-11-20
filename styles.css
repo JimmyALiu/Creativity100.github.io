@@ -25,9 +25,22 @@ h1 {
   font-size: 5rem;
 }
 
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding-left: 20px;
+}
+
 p {
   font-size: 1.25rem;
   margin: 0px;
+  padding-left: 20px;
 }
 
 nav {
@@ -48,21 +61,6 @@ nav a:hover {
   background-color: #555;
 }
 
-.main {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
 section {
   margin-top: 50px;
   padding-bottom: 30px;
@@ -72,12 +70,16 @@ li {
   font-size: 1.25rem;
 }
 
-#skills p {
-  padding-bottom: 20px;
+#coursework p {
+  margin-bottom: 50px;
 }
 
-body::-webkit-scrollbar {
-  display: none;
+.main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .hidden {
@@ -93,10 +95,18 @@ body::-webkit-scrollbar {
   transition: all 1s;
 }
 
+#skills p {
+  padding-bottom: 20px;
+}
+
 #about p, #education div div {
   padding-bottom: 20px;
 }
 
 #projects h3 {
   color: red;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
